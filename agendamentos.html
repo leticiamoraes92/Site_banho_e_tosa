@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento - PetCare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Agende um horário</h1>
+</header>
+
+<form id="formAgendamento">
+    <label>Nome do Tutor:</label>
+    <input type="text" required>
+
+    <label>Nome do Pet:</label>
+    <input type="text" required>
+
+    <label>Serviço:</label>
+    <select required>
+        <option>Banho</option>
+        <option>Tosa</option>
+        <option>Banho e Tosa</option>
+    </select>
+
+    <label>Data:</label>
+    <input type="date" required>
+
+    <button type="submit">Agendar</button>
+</form>
+
+<p id="mensagem"></p>
+
+</body>
+</html>
