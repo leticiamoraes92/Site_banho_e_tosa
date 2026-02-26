@@ -2,37 +2,40 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Agendamento - PetCare</title>
+    <title>Agendamento | PetCare</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
 </head>
 <body>
 
 <header>
-    <h1>Agende um horário</h1>
+    <div class="container header-content">
+        <h1 class="logo">🐾 PetCare</h1>
+    </div>
 </header>
 
-<form id="formAgendamento">
-    <label>Nome do Tutor:</label>
-    <input type="text" required>
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Agende um Horário</h2>
 
-    <label>Nome do Pet:</label>
-    <input type="text" required>
+        <form id="formAgendamento" class="form">
+            <input type="text" placeholder="Nome do Tutor" required>
+            <input type="text" placeholder="Nome do Pet" required>
 
-    <label>Serviço:</label>
-    <select required>
-        <option>Banho</option>
-        <option>Tosa</option>
-        <option>Banho e Tosa</option>
-    </select>
+            <select required>
+                <option value="">Selecione o serviço</option>
+                <option>Banho</option>
+                <option>Tosa</option>
+                <option>Banho e Tosa</option>
+            </select>
 
-    <label>Data:</label>
-    <input type="date" required>
+            <input type="date" required>
+            <button type="submit" class="btn">Agendar</button>
+        </form>
 
-    <button type="submit">Agendar</button>
-</form>
+        <p id="mensagem"></p>
+    </div>
+</section>
 
-<p id="mensagem"></p>
-
+<script src="js/script.js"></script>
 </body>
 </html>
