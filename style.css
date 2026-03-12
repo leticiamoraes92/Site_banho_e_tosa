@@ -10,15 +10,11 @@ body{
     color:#2c3e50;
 }
 
-/* container */
-
 .container{
     width:90%;
     max-width:1100px;
     margin:auto;
 }
-
-/* header */
 
 header{
     background:white;
@@ -35,9 +31,6 @@ header{
 .logo{
     color:#ff7a00;
 }
-
-/* menu */
-
 nav a{
     text-decoration:none;
     margin-left:20px;
@@ -51,9 +44,6 @@ nav a{
     border-radius:6px;
     color:white;
 }
-
-/* sections */
-
 .section{
     padding:80px 0;
 }
@@ -62,8 +52,6 @@ nav a{
     text-align:center;
     margin-bottom:40px;
 }
-
-/* cards */
 
 .cards{
     display:flex;
@@ -83,7 +71,6 @@ nav a{
     transform:translateY(-5px);
 }
 
-/* footer */
 
 footer{
     background:#2c3e50;
@@ -92,8 +79,6 @@ footer{
     padding:20px;
     margin-top:40px;
 }
-
-/* responsivo */
 
 @media(max-width:768px){
 

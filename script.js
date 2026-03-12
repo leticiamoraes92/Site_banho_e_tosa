@@ -1,6 +1,5 @@
-document.getElementById("formAgendamento")
-.addEventListener("submit", function(event) {
-    event.preventDefault();
+document.getElementById("formAgendamento")?.addEventListener("submit", function(e){
+    e.preventDefault();
     document.getElementById("mensagem").innerText =
-        "Agendamento realizado com sucesso! 🐾";
+        "Agendamento enviado com sucesso! Entraremos em contato 🐾";
 });
