@@ -2,26 +2,36 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>PetCare | Banho e Tosa</title>
+    <title>Agendamento | PetCare</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <body>
 
 <header>
     <div class="container header-content">
         <h1 class="logo">🐾 PetCare</h1>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="agendamento.html" class="btn-nav">Agendar</a>
+            <a href="contato.html">Contato</a>
+        </nav>
     </div>
 </header>
 
 <section class="section">
     <div class="container">
+
         <h2 class="section-title">Agende um Horário</h2>
 
         <form id="formAgendamento" class="form">
+
             <input type="text" placeholder="Nome do Tutor" required>
+
             <input type="text" placeholder="Nome do Pet" required>
 
             <select required>
@@ -32,13 +42,21 @@
             </select>
 
             <input type="date" required>
+
             <button type="submit" class="btn">Agendar</button>
+
         </form>
 
         <p id="mensagem"></p>
+
     </div>
 </section>
 
-<script src="js/script.js"></script>
+<footer>
+    <p>© 2026 PetCare - Todos os direitos reservados</p>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
